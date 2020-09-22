@@ -1,0 +1,623 @@
+array(3) {
+  ["broadcast"]=>
+  NULL
+  ["reel"]=>
+  array(14) {
+    ["id"]=>
+    int(31973769255)
+    ["latest_reel_media"]=>
+    int(1600417837)
+    ["expiring_at"]=>
+    int(1600504237)
+    ["seen"]=>
+    int(0)
+    ["can_reply"]=>
+    bool(true)
+    ["can_gif_quick_reply"]=>
+    bool(true)
+    ["can_reshare"]=>
+    bool(true)
+    ["reel_type"]=>
+    string(9) "user_reel"
+    ["is_sensitive_vertical_ad"]=>
+    bool(false)
+    ["user"]=>
+    array(8) {
+      ["pk"]=>
+      int(31973769255)
+      ["username"]=>
+      string(15) "jetaimefleur520"
+      ["full_name"]=>
+      string(61) "𝕁𝕖 𝕥'𝕒𝕚𝕞𝕖 𝔽𝕝𝕖𝕦𝕣🌹❤️"
+      ["is_private"]=>
+      bool(false)
+      ["profile_pic_url"]=>
+      string(230) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/90088734_283829009252044_7354871262331535360_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=1bje1xS71BwAX_3Q_oF&oh=74374c2f6bbe373ad746f2f1cc163e6c&oe=5F8DFF19"
+      ["profile_pic_id"]=>
+      string(31) "2268857795121311663_31973769255"
+      ["friendship_status"]=>
+      array(9) {
+        ["following"]=>
+        bool(true)
+        ["followed_by"]=>
+        bool(true)
+        ["blocking"]=>
+        bool(false)
+        ["muting"]=>
+        bool(false)
+        ["is_private"]=>
+        bool(false)
+        ["incoming_request"]=>
+        bool(false)
+        ["outgoing_request"]=>
+        bool(false)
+        ["is_bestie"]=>
+        bool(false)
+        ["is_restricted"]=>
+        bool(false)
+      }
+      ["is_verified"]=>
+      bool(false)
+    }
+    ["items"]=>
+    array(1) {
+      [0]=>
+      array(36) {
+        ["taken_at"]=>
+        int(1600417837)
+        ["pk"]=>
+        int(2400801319600039845)
+        ["id"]=>
+        string(31) "2400801319600039845_31973769255"
+        ["device_timestamp"]=>
+        int(1600417837735994)
+        ["media_type"]=>
+        int(2)
+        ["code"]=>
+        string(11) "CFRXBSHDKel"
+        ["client_cache_key"]=>
+        string(30) "MjQwMDgwMTMxOTYwMDAzOTg0NQ==.2"
+        ["filter_type"]=>
+        int(0)
+        ["user"]=>
+        array(11) {
+          ["pk"]=>
+          int(31973769255)
+          ["username"]=>
+          string(15) "jetaimefleur520"
+          ["full_name"]=>
+          string(61) "𝕁𝕖 𝕥'𝕒𝕚𝕞𝕖 𝔽𝕝𝕖𝕦𝕣🌹❤️"
+          ["is_private"]=>
+          bool(false)
+          ["profile_pic_url"]=>
+          string(230) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/90088734_283829009252044_7354871262331535360_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=1bje1xS71BwAX_3Q_oF&oh=74374c2f6bbe373ad746f2f1cc163e6c&oe=5F8DFF19"
+          ["profile_pic_id"]=>
+          string(31) "2268857795121311663_31973769255"
+          ["is_verified"]=>
+          bool(false)
+          ["has_anonymous_profile_picture"]=>
+          bool(false)
+          ["is_unpublished"]=>
+          bool(false)
+          ["is_favorite"]=>
+          bool(false)
+          ["account_badges"]=>
+          array(0) {
+          }
+        }
+        ["caption_is_edited"]=>
+        bool(false)
+        ["image_versions2"]=>
+        array(1) {
+          ["candidates"]=>
+          array(2) {
+            [0]=>
+            array(5) {
+              ["width"]=>
+              int(640)
+              ["height"]=>
+              int(1137)
+              ["url"]=>
+              string(305) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-15/e15/p640x640/119561977_801493720622940_7601520433113348341_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=6CSyBOyrprcAX-MSr_m&_nc_tp=19&oh=c3f703deaeb524f169c8280c3a03801b&oe=5F676402&ig_cache_key=MjQwMDgwMTMxOTYwMDAzOTg0NQ%3D%3D.2"
+              ["scans_profile"]=>
+              string(3) "e15"
+              ["estimated_scans_sizes"]=>
+              array(9) {
+                [0]=>
+                int(9035)
+                [1]=>
+                int(18070)
+                [2]=>
+                int(27106)
+                [3]=>
+                int(36141)
+                [4]=>
+                int(45177)
+                [5]=>
+                int(50553)
+                [6]=>
+                int(64331)
+                [7]=>
+                int(73115)
+                [8]=>
+                int(81319)
+              }
+            }
+            [1]=>
+            array(5) {
+              ["width"]=>
+              int(240)
+              ["height"]=>
+              int(426)
+              ["url"]=>
+              string(305) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-15/e15/p240x240/119561977_801493720622940_7601520433113348341_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=6CSyBOyrprcAX-MSr_m&_nc_tp=19&oh=975599f50e6cbb6c0622abb55970f59d&oe=5F678705&ig_cache_key=MjQwMDgwMTMxOTYwMDAzOTg0NQ%3D%3D.2"
+              ["scans_profile"]=>
+              string(3) "e15"
+              ["estimated_scans_sizes"]=>
+              array(9) {
+                [0]=>
+                int(2144)
+                [1]=>
+                int(4288)
+                [2]=>
+                int(6432)
+                [3]=>
+                int(8576)
+                [4]=>
+                int(10720)
+                [5]=>
+                int(12906)
+                [6]=>
+                int(372462)
+                [7]=>
+                int(19296)
+                [8]=>
+                int(19296)
+              }
+            }
+          }
+        }
+        ["original_width"]=>
+        int(720)
+        ["original_height"]=>
+        int(1280)
+        ["caption_position"]=>
+        float(0)
+        ["is_reel_media"]=>
+        bool(true)
+        ["photo_of_you"]=>
+        bool(false)
+        ["can_see_insights_as_brand"]=>
+        bool(false)
+        ["video_versions"]=>
+        array(3) {
+          [0]=>
+          array(5) {
+            ["type"]=>
+            int(101)
+            ["width"]=>
+            int(480)
+            ["height"]=>
+            int(852)
+            ["url"]=>
+            string(344) "https://scontent-hkg4-1.cdninstagram.com/v/t50.12441-16/119796124_2764803876953910_457079800530024528_n.mp4?cb=ae824530-5f9ba367&efg=eyJxZV9ncm91cHMiOiJbXCJpZ19wcm9ncmVzc2l2ZV91cmxnZW4ucHJvZHVjdF90eXBlLnN0b3J5XCJdIn0&_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_cat=106&_nc_ohc=mGyRK9RJCq4AX9P7YsX&oe=5F67FAC9&oh=c87d9381adad2623590897ed073bc8bd"
+            ["id"]=>
+            string(17) "17942017072381259"
+          }
+          [1]=>
+          array(5) {
+            ["type"]=>
+            int(102)
+            ["width"]=>
+            int(480)
+            ["height"]=>
+            int(852)
+            ["url"]=>
+            string(344) "https://scontent-hkg4-1.cdninstagram.com/v/t50.12441-16/119796124_2764803876953910_457079800530024528_n.mp4?cb=ae824530-5f9ba367&efg=eyJxZV9ncm91cHMiOiJbXCJpZ19wcm9ncmVzc2l2ZV91cmxnZW4ucHJvZHVjdF90eXBlLnN0b3J5XCJdIn0&_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_cat=106&_nc_ohc=mGyRK9RJCq4AX9P7YsX&oe=5F67FAC9&oh=c87d9381adad2623590897ed073bc8bd"
+            ["id"]=>
+            string(17) "17942017072381259"
+          }
+          [2]=>
+          array(5) {
+            ["type"]=>
+            int(103)
+            ["width"]=>
+            int(480)
+            ["height"]=>
+            int(852)
+            ["url"]=>
+            string(344) "https://scontent-hkg4-1.cdninstagram.com/v/t50.12441-16/119796124_2764803876953910_457079800530024528_n.mp4?cb=ae824530-5f9ba367&efg=eyJxZV9ncm91cHMiOiJbXCJpZ19wcm9ncmVzc2l2ZV91cmxnZW4ucHJvZHVjdF90eXBlLnN0b3J5XCJdIn0&_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_cat=106&_nc_ohc=mGyRK9RJCq4AX9P7YsX&oe=5F67FAC9&oh=c87d9381adad2623590897ed073bc8bd"
+            ["id"]=>
+            string(17) "17942017072381259"
+          }
+        }
+        ["has_audio"]=>
+        bool(false)
+        ["video_duration"]=>
+        float(5)
+        ["caption"]=>
+        NULL
+        ["can_viewer_save"]=>
+        bool(true)
+        ["organic_tracking_token"]=>
+        string(344) "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiYTA0NjgyMWZkZWIzNGZkMjgyYWI4MzA0NTk3OTk0ZjQyNDAwODAxMzE5NjAwMDM5ODQ1Iiwic2VydmVyX3Rva2VuIjoiMTYwMDQ4MTUzNTE1MHwyNDAwODAxMzE5NjAwMDM5ODQ1fDM3ODMyNTIxNTM1fDQwNjM2YzU1YzBkY2JlY2Q3MjgwNThkOTk4OTA0NWI4ZjljYTc5NDY1NzM5MGI1NGY1YWM2NjA1MjM3MWE5NDAifSwic2lnbmF0dXJlIjoiIn0="
+        ["expiring_at"]=>
+        int(1600504237)
+        ["imported_taken_at"]=>
+        int(1600416235)
+        ["sharing_friction_info"]=>
+        array(2) {
+          ["should_have_sharing_friction"]=>
+          bool(false)
+          ["bloks_app_url"]=>
+          NULL
+        }
+        ["is_in_profile_grid"]=>
+        bool(false)
+        ["profile_grid_control_enabled"]=>
+        bool(false)
+        ["is_shop_the_look_eligible"]=>
+        bool(false)
+        ["deleted_reason"]=>
+        int(0)
+        ["can_reshare"]=>
+        bool(true)
+        ["can_reply"]=>
+        bool(true)
+        ["reel_mentions"]=>
+        array(8) {
+          [0]=>
+          array(12) {
+            ["x"]=>
+            float(0.22310251019001)
+            ["y"]=>
+            float(0.8866553611305)
+            ["z"]=>
+            int(5)
+            ["width"]=>
+            float(0.17261595978737)
+            ["height"]=>
+            float(0.018028599926378)
+            ["rotation"]=>
+            float(0)
+            ["is_pinned"]=>
+            int(0)
+            ["is_hidden"]=>
+            int(0)
+            ["display_type"]=>
+            string(16) "mention_username"
+            ["is_sticker"]=>
+            int(0)
+            ["is_fb_sticker"]=>
+            int(0)
+            ["user"]=>
+            array(7) {
+              ["pk"]=>
+              int(13865357009)
+              ["username"]=>
+              string(11) "w.a._studio"
+              ["full_name"]=>
+              string(11) "w.a. studio"
+              ["is_private"]=>
+              bool(false)
+              ["profile_pic_url"]=>
+              string(231) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/117372944_306607687062176_8388491033343986075_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=OXaNpd0df50AX_jd8zn&oh=4df057bbc73dca38ef9afed73f26e8ae&oe=5F8F28C8"
+              ["profile_pic_id"]=>
+              string(31) "2374752592921293083_13865357009"
+              ["is_verified"]=>
+              bool(false)
+            }
+          }
+          [1]=>
+          array(12) {
+            ["x"]=>
+            float(0.88921408503092)
+            ["y"]=>
+            float(0.10423148538918)
+            ["z"]=>
+            int(0)
+            ["width"]=>
+            float(0.13530176408387)
+            ["height"]=>
+            float(0.019163107783942)
+            ["rotation"]=>
+            float(0)
+            ["is_pinned"]=>
+            int(0)
+            ["is_hidden"]=>
+            int(0)
+            ["display_type"]=>
+            string(16) "mention_username"
+            ["is_sticker"]=>
+            int(0)
+            ["is_fb_sticker"]=>
+            int(0)
+            ["user"]=>
+            array(7) {
+              ["pk"]=>
+              int(230339094)
+              ["username"]=>
+              string(8) "aaroncyu"
+              ["full_name"]=>
+              string(20) "Aaron Yu Photography"
+              ["is_private"]=>
+              bool(false)
+              ["profile_pic_url"]=>
+              string(231) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/95570462_2572958589613256_1095782956212944896_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=DumCytMbv5gAX85T9DJ&oh=d9ba0b15a1aa66f8b8549abcb024c075&oe=5F90E152"
+              ["profile_pic_id"]=>
+              string(29) "2300934990123180772_230339094"
+              ["is_verified"]=>
+              bool(false)
+            }
+          }
+          [2]=>
+          array(12) {
+            ["x"]=>
+            float(0.847319442417)
+            ["y"]=>
+            float(0.12339459317313)
+            ["z"]=>
+            int(1)
+            ["width"]=>
+            float(0.21909104931171)
+            ["height"]=>
+            float(0.019163107783942)
+            ["rotation"]=>
+            float(0)
+            ["is_pinned"]=>
+            int(0)
+            ["is_hidden"]=>
+            int(0)
+            ["display_type"]=>
+            string(16) "mention_username"
+            ["is_sticker"]=>
+            int(0)
+            ["is_fb_sticker"]=>
+            int(0)
+            ["user"]=>
+            array(7) {
+              ["pk"]=>
+              int(35833663365)
+              ["username"]=>
+              string(13) "conniecmakeup"
+              ["full_name"]=>
+              string(56) "𝓒𝓸𝓷𝓷𝓲𝓮 𝓒. 𝓜𝓪𝓴𝓮-𝓤𝓹"
+              ["is_private"]=>
+              bool(false)
+              ["profile_pic_url"]=>
+              string(232) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/118996672_2768064123465091_6345153528602730536_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=GewsiChXBwUAX_bLTko&oh=947a038c8603d36eb795dc86a0f4abb7&oe=5F8ED2EB"
+              ["profile_pic_id"]=>
+              string(31) "2393344773870999419_35833663365"
+              ["is_verified"]=>
+              bool(false)
+            }
+          }
+          [3]=>
+          array(12) {
+            ["x"]=>
+            float(0.64331062041595)
+            ["y"]=>
+            float(0.52345223667797)
+            ["z"]=>
+            int(7)
+            ["width"]=>
+            float(0.5)
+            ["height"]=>
+            float(0.032416432901991)
+            ["rotation"]=>
+            float(0.027636791774293)
+            ["is_pinned"]=>
+            int(0)
+            ["is_hidden"]=>
+            int(0)
+            ["display_type"]=>
+            string(16) "mention_username"
+            ["is_sticker"]=>
+            int(0)
+            ["is_fb_sticker"]=>
+            int(0)
+            ["user"]=>
+            array(7) {
+              ["pk"]=>
+              int(16804785)
+              ["username"]=>
+              string(12) "dear.sharonn"
+              ["full_name"]=>
+              string(9) "SHARON T."
+              ["is_private"]=>
+              bool(false)
+              ["profile_pic_url"]=>
+              string(230) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/73267825_752892878560777_8476177787550433280_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=ifsNA-ib3EUAX-hYTRW&oh=67afe999784bc4c83dcfb8800f92bc52&oe=5F8F2449"
+              ["profile_pic_id"]=>
+              string(28) "2185438563821615411_16804785"
+              ["is_verified"]=>
+              bool(false)
+            }
+          }
+          [4]=>
+          array(12) {
+            ["x"]=>
+            float(0.84899404256393)
+            ["y"]=>
+            float(0.16172080874101)
+            ["z"]=>
+            int(3)
+            ["width"]=>
+            float(0.21574184901785)
+            ["height"]=>
+            float(0.019163107783942)
+            ["rotation"]=>
+            float(0)
+            ["is_pinned"]=>
+            int(0)
+            ["is_hidden"]=>
+            int(0)
+            ["display_type"]=>
+            string(16) "mention_username"
+            ["is_sticker"]=>
+            int(0)
+            ["is_fb_sticker"]=>
+            int(0)
+            ["user"]=>
+            array(7) {
+              ["pk"]=>
+              int(31973769255)
+              ["username"]=>
+              string(15) "jetaimefleur520"
+              ["full_name"]=>
+              string(61) "𝕁𝕖 𝕥'𝕒𝕚𝕞𝕖 𝔽𝕝𝕖𝕦𝕣🌹❤️"
+              ["is_private"]=>
+              bool(false)
+              ["profile_pic_url"]=>
+              string(230) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/90088734_283829009252044_7354871262331535360_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=1bje1xS71BwAX_3Q_oF&oh=74374c2f6bbe373ad746f2f1cc163e6c&oe=5F8DFF19"
+              ["profile_pic_id"]=>
+              string(31) "2268857795121311663_31973769255"
+              ["is_verified"]=>
+              bool(false)
+            }
+          }
+          [5]=>
+          array(12) {
+            ["x"]=>
+            float(0.32425745077133)
+            ["y"]=>
+            float(0.90468396105688)
+            ["z"]=>
+            int(6)
+            ["width"]=>
+            float(0.23062492713928)
+            ["height"]=>
+            float(0.018028599926378)
+            ["rotation"]=>
+            float(0)
+            ["is_pinned"]=>
+            int(0)
+            ["is_hidden"]=>
+            int(0)
+            ["display_type"]=>
+            string(16) "mention_username"
+            ["is_sticker"]=>
+            int(0)
+            ["is_fb_sticker"]=>
+            int(0)
+            ["user"]=>
+            array(7) {
+              ["pk"]=>
+              int(8141285106)
+              ["username"]=>
+              string(15) "_.shadow._.lau_"
+              ["full_name"]=>
+              string(3) "影"
+              ["is_private"]=>
+              bool(false)
+              ["profile_pic_url"]=>
+              string(231) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/60377573_2163736937015184_8819306104967135232_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=p_NzMDIG_ewAX-guDns&oh=6fbeb40a0a25a21315c25d898bfcdbb6&oe=5F8DF2D1"
+              ["profile_pic_id"]=>
+              string(30) "2051497221832108730_8141285106"
+              ["is_verified"]=>
+              bool(false)
+            }
+          }
+          [6]=>
+          array(12) {
+            ["x"]=>
+            float(0.25600311853886)
+            ["y"]=>
+            float(0.86862676120412)
+            ["z"]=>
+            int(4)
+            ["width"]=>
+            float(0.23937918257713)
+            ["height"]=>
+            float(0.018028599926378)
+            ["rotation"]=>
+            float(0)
+            ["is_pinned"]=>
+            int(0)
+            ["is_hidden"]=>
+            int(0)
+            ["display_type"]=>
+            string(16) "mention_username"
+            ["is_sticker"]=>
+            int(0)
+            ["is_fb_sticker"]=>
+            int(0)
+            ["user"]=>
+            array(7) {
+              ["pk"]=>
+              int(36483258827)
+              ["username"]=>
+              string(14) "beyourbride_hk"
+              ["full_name"]=>
+              string(30) "Be Your Bride Wedding Boutique"
+              ["is_private"]=>
+              bool(false)
+              ["profile_pic_url"]=>
+              string(231) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/100696675_549491189073349_5790854394597605376_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=F1BWfsaNiEMAX862zk5&oh=3fc90fbdd7f35d2dafd967c111c25173&oe=5F8D83AC"
+              ["profile_pic_id"]=>
+              string(31) "2316203078247038439_36483258827"
+              ["is_verified"]=>
+              bool(false)
+            }
+          }
+          [7]=>
+          array(12) {
+            ["x"]=>
+            float(0.81690988930636)
+            ["y"]=>
+            float(0.14255770095707)
+            ["z"]=>
+            int(2)
+            ["width"]=>
+            float(0.27991015553298)
+            ["height"]=>
+            float(0.019163107783942)
+            ["rotation"]=>
+            float(0)
+            ["is_pinned"]=>
+            int(0)
+            ["is_hidden"]=>
+            int(0)
+            ["display_type"]=>
+            string(16) "mention_username"
+            ["is_sticker"]=>
+            int(0)
+            ["is_fb_sticker"]=>
+            int(0)
+            ["user"]=>
+            array(7) {
+              ["pk"]=>
+              int(31816428452)
+              ["username"]=>
+              string(19) "sparkledecorationhk"
+              ["full_name"]=>
+              string(40) "𝓭𝓮𝓬𝓸𝓻𝓪𝓽𝓲𝓸𝓷"
+              ["is_private"]=>
+              bool(false)
+              ["profile_pic_url"]=>
+              string(231) "https://scontent-hkg4-1.cdninstagram.com/v/t51.2885-19/s150x150/119716039_324728808845487_3960754609414039626_n.jpg?_nc_ht=scontent-hkg4-1.cdninstagram.com&_nc_ohc=Yg002RR6wUwAX-ayqIV&oh=2668c97236e2f396bbd9bbff7a75aabe&oe=5F8EBB49"
+              ["profile_pic_id"]=>
+              string(31) "2400827900565415007_31816428452"
+              ["is_verified"]=>
+              bool(false)
+            }
+          }
+        }
+        ["supports_reel_reactions"]=>
+        bool(true)
+        ["can_send_custom_emojis"]=>
+        bool(true)
+        ["show_one_tap_fb_share_tooltip"]=>
+        bool(true)
+      }
+    }
+    ["prefetch_count"]=>
+    int(0)
+    ["has_besties_media"]=>
+    bool(false)
+    ["media_count"]=>
+    int(1)
+  }
+  ["status"]=>
+  string(2) "ok"
+}
