@@ -119,7 +119,7 @@ do {
 					$viewstory  = json_decode($viewstory[1], true);
 					if($storyitem['story_polls']){
 						$stories['pool_id']	= $storyitem['story_polls'][0]['poll_sticker']['poll_id'];
-						$react_1	  		= proccess(1, $useragent, 'media/'.$stories['id'].'/'.$stories['pool_id'].'/story_poll_vote/', $cookie, hook('{"radio_type": "none", "vote": "'.rand(0,1).'"}'), array(), $prox['ip'], $prox['user'], $prox['is_socks5']);
+						$react_1	  		= proccess(1, $useragent, 'media/'.$stories['id'].'/'.$stories['pool_id'].'/story_poll_vote/', $cookie, hook('{"radio_type": "none", "vote": "1"}'), array(), $prox['ip'], $prox['user'], $prox['is_socks5']);
 						$react_1			= json_decode($react_1[1], true);
 						if($react_1['status'] == 'ok'){
 							echo "[~] ".date('d-m-Y H:i:s')." - Success polling for ".$stories['id']."\n";
@@ -145,9 +145,9 @@ do {
 					}
 					if($storyitem['story_sliders']){
 						$stories['slider_id']	= $storyitem['story_sliders'][0]['slider_sticker']['slider_id'];
-						$react_4	  			= proccess(1, $useragent, 'media/'.$stories['id'].'/'.$stories['slider_id'].'/story_slider_vote/', $cookie, hook('{"radio_type": "wifi-none", "vote": "0.8"}'), array(), $prox['ip'], $prox['user'], $prox['is_socks5']);
+						$react_4	  			= proccess(1, $useragent, 'media/'.$stories['id'].'/'.$stories['slider_id'].'/story_slider_vote/', $cookie, hook('{"radio_type": "wifi-none", "vote": "0.9"}'), array(), $prox['ip'], $prox['user'], $prox['is_socks5']);
 						$react_4				= json_decode($react_4[1], true);
-						if($react_2['status'] == 'ok'){
+						if($react_4['status'] == 'ok'){
 							echo "[~] ".date('d-m-Y H:i:s')." - Success sent slider for ".$stories['id']."\n";
 						}
 						//echo "[Stories Slider True : ".$stories['slider_id']." : ".$react_4[1]."] ";

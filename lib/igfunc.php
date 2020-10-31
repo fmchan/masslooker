@@ -89,6 +89,7 @@ function paginasi($reload, $page, $tpages)
     return $out;
 }
 
+// run many places
 function proccess($ighost, $useragent, $url, $cookie = 0, $data = 0, $httpheader = array(), $proxy = 0, $userpwd = 0, $is_socks5 = 0)
 {
     $url = $ighost ? 'https://i.instagram.com/api/v1/' . $url : $url;
@@ -128,6 +129,7 @@ function proccess($ighost, $useragent, $url, $cookie = 0, $data = 0, $httpheader
     }
 }
 
+// used once in run
 function proccess_v2($ighost, $useragent, $url, $cookie = 0, $data = 0, $httpheader = array(), $proxy = 0, $userpwd = 0, $is_socks5 = 0)
 {
     $url = $ighost ? 'https://i.instagram.com/api/v2/' . $url : $url;
@@ -206,7 +208,7 @@ function request($ighost, $useragent, $url, $cookie = 0, $data = 0, $httpheader 
     }
 }
 
-function cekpoint($url, $data, $csrf, $cookies, $ua){
+function cekpoint($url, $data, $csrf, $cookies, $ua){ // for login
 	$a = curl_init();
     curl_setopt($a, CURLOPT_URL, $url);
     curl_setopt($a, CURLOPT_USERAGENT, $ua);
@@ -235,7 +237,7 @@ function cekpoint($url, $data, $csrf, $cookies, $ua){
     return $b;
 }
 
-function generate_useragent($sign_version = '107.0.0.27.121')
+function generate_useragent($sign_version = '107.0.0.27.121') // for login
 {
     $resolusi = array(
         '1080x1776',
@@ -264,7 +266,7 @@ function generate_useragent($sign_version = '107.0.0.27.121')
     return 'Instagram ' . $sign_version . ' Android (' . mt_rand(10, 11) . '/' . mt_rand(1, 3) . '.' . mt_rand(3, 5) . '.' . mt_rand(0, 5) . '; ' . $dpi[array_rand($dpi)] . '; ' . $resolusi[array_rand($resolusi)] . '; samsung; ' . $ver . '; ' . $ver . '; smdkc210; en_US)';
 }
 
-function hook($data)
+function hook($data) // run many places
 {
     return 'ig_sig_key_version=4&signed_body=' . hash_hmac('sha256', $data, '5d406b6939d4fb10d3edb4ac0247d495b697543d3f53195deb269ec016a67911') . '.' . urlencode($data);
 }
@@ -285,12 +287,12 @@ function ava_hook($bound, $csrf, $file_url)
     return $body;
 }
 
-function generate_device_id()
+function generate_device_id() // for login
 {
     return 'android-' . md5(rand(1000, 9999)) . rand(2, 9);
 }
 
-function generate_guid($tipe = 0)
+function generate_guid($tipe = 0) // for proccess login
 {
     $guid = sprintf('%04x%04x-%04x-%04x-%04x-%04x%04x%04x', mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(16384, 20479), mt_rand(32768, 49151), mt_rand(0, 65535), mt_rand(0, 65535), mt_rand(0, 65535));
     return $tipe ? $guid : str_replace('-', '', $guid);
