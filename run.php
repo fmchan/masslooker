@@ -118,7 +118,7 @@ do {
 					$viewstory  = proccess_v2(1, $useragent, 'media/seen/?reel=1&live_vod=0', $cookie, hook(''.$hook.''), array(), $prox['ip'], $prox['user'], $prox['is_socks5']);
 					$viewstory  = json_decode($viewstory[1], true);
 					if($storyitem['story_polls']){
-						$stories['pool_id']	= $storyitem['story_polls'][0]['poll_sticker']['poll_id'];
+						$stories['pool_id']	= $storyitem['story_polls'][1]['poll_sticker']['poll_id'];
 						$react_1	  		= proccess(1, $useragent, 'media/'.$stories['id'].'/'.$stories['pool_id'].'/story_poll_vote/', $cookie, hook('{"radio_type": "none", "vote": "1"}'), array(), $prox['ip'], $prox['user'], $prox['is_socks5']);
 						$react_1			= json_decode($react_1[1], true);
 						if($react_1['status'] == 'ok'){
